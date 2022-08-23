@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KutzbyKev</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+  <script src="https://use.fontawesome.com/a1bf9c4b7a.js"></script>
+</head>
+
+<body>
+  <section class = "header">
+   <!--- <a href="index.html"><img src="img/capture.png" class="logo" width="200" height="200"></a> -->
+    <nav>
+      <a href="index.html"><img src="img/capture.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li>714-277-7696</li>
+          <li>kutzbykevsd@gmail.com</li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Book An Appointment</a></li>
+          
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+  </section>
+
+<div class="text-box">
+  <h1>Where detail makes the difference</h1>
+  <a href="contact.html" class="hero-btn">Book An Appointment</a>
+</div>
+
+
+
+<div class="container">
+  <section class="home-about">
+
+    <div class="home-about-textbox">
+      <h1>About me</h1>
+      <p>My name is Kevin and I'm born and raised in Orange County.
+        I finished my undergraduate at UCSD, studying computer science. 
+        I’m a very easygoing and sociable guy, and I love talking and meeting new people. 
+        I've been cutting hair for 5 years now and still going.
+       Besides barbering, I enjoy playing games (League of Legends, CoD, etc), hooping, 
+       dancing, and coding!</p>
+
+    </div>
+
+  </section>
+  <section class="home-about-2">
+    <div class="home-about-textbox-2">
+      <p>It all started with me trying to save 
+        money for college by learning to cut my own hair on youtube. Safe to say, the haircuts I gave myself were absolutely horrible. 
+        I had a thought that I could learn quicker by cutting my highschool buddies and cousins.
+        So thats what I did, and I quickly came to the realization that cutting hair would be one of my passions! I think being able to give other people the confidence boost to pursue their goals and to meet all 
+        sorts of people and listen their unique stories really sold it for me. 
+      </p>
+    </div>
+
+  </section>
+</div>
+
+<!--Features-->
+
+  <section id="feature">
+    <div class="title-text">
+      <p>FEATURES</p>
+      <h1>Why Choose Me</h1>
+    </div>
+    <div class="feature-box">
+      <div class="features">
+        <h1>Detailed-Oriented</h1>
+        <div class="features-desc">
+        
+          <div class="feature-text">
+            <p>I am very meticulous when it comes to cutting hair and I strive to not only, <br> make sure 
+              that my client is satisfied but also that I tried my very best. Expect <br>at least
+              45 minutes for every haircut! </p>
+          </div>
+        </div>
+        <h1>Affordable</h1>
+        <div class="features-desc">
+        
+          <div class="feature-text">
+            <p>I make sure that the services I provide are reasonable and affordable without satisfying
+              the quality of my cuts. As of right now, all haircuts are $20!</p>
+          </div>
+        </div>
+        <h1>Stress Free</h1>
+        <div class="features-desc">
+          
+          <div class="feature-text">
+            <p>It could be intimidating to go to a traditional barbershop. With KutzbyKev,
+              I want <br> to make the whole process as easy and comfortable as possible. I offer 
+              100% transparency and free, extensive online consultations.
+               
+            </p>
+          </div>
+       
+        </div>
+      </div>
+      <div class="features-img">
+        <img src="img/barberme.jpg">
+      </div> 
+    </div>
+  </section>
+
+<!---- JavaSript for Toggle Menu ---->
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+      navLinks.style.right = "0";
+  }
+  function hideMenu(){
+      navLinks.style.right = "-200px";
+  }
+
+</script>
+
+<footer>
+  <section class = "footer">
+    <p>Make sure you give me a follow!</p>
+      <div class = "icons">
+        <a href="https://www.instagram.com/kutz_bykev/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/kevin-nguyen17/"><i class="fa fa-linkedin"></i></a>
+      </div>
+  </section>
+ 
+</footer>
+</body>
+
+</html>
